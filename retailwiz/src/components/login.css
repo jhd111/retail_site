@@ -1,0 +1,24 @@
+.bg_s{
+    background-color: #f8f8f8;
+
+}
+.bg_w{
+    background-color: #ffffff;
+}
+.bg_a{
+    background-color: #f5f5f5;
+
+}
+.wdith_40{
+    max-width: 500px;
+}
+.wdith_40 > .childDiv{
+    
+    width: 100%; 
+   
+ }
+@media screen and (min-width: 480px) {
+    .wdith_40{
+        max-width: 20rem;
+    }
+  }
